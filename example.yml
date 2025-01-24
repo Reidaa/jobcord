@@ -1,0 +1,13 @@
+sources:
+  disable-all: true
+  enable:
+    - sept-lieu
+    - VIE
+
+sources-settings:
+  septlieu:
+    salary-min: 0
+    salary-max: 60
+  #   locations:
+  #     - 
+  # VIE:
