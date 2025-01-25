@@ -1,0 +1,34 @@
+{
+    "$schema": "./jsonschema/jobcord.jsonschema.json",
+    "sources": {
+        "enable": [
+            "sept-lieu"
+        ]
+    },
+    "sources-settings": {
+        "sept-lieu": {
+            "location": [
+                "En region",
+                "Paris"
+            ],
+            "salary-max": 60,
+            "salary-min": 20,
+            "tags": [
+                ".Net 6",
+                ".Net 8"
+            ]
+        },
+        "businessFrance": {
+            "geographic-zones": [
+                "Asia and Pacific",
+                "Latin America",
+                "North America",
+                "Western Europe"
+            ],
+            "specializations": [
+                "INFORMATION SYSTEMS",
+                "SCIENTIFIC AND INDUSTRIAL COMPUTING"
+            ]
+        }
+    }
+}
